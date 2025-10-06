@@ -7,23 +7,89 @@
 
         <title>Presentation - Music Theory</title>
 
+        <meta name="description" content="Presentation on the basics of sound and music theory" />
+        <meta name="author" content="Mark Markarian" />
+
         <link rel="icon" href="assets/img/favicon.png" type="image/png" />
 
         <link rel="stylesheet" href="assets/reveal/css/reset.css" />
         <link rel="stylesheet" href="assets/reveal/css/reveal.css" />
         <link rel="stylesheet" href="assets/reveal/css/theme/sky.css" />
+
+        <!-- Custom styles. -->
+        <link rel="stylesheet" href="assets/css/overrides.css" />
     </head>
+
     <body>
         <div class="reveal">
             <div class="slides">
-                <section>Slide 1</section>
-                <section>Slide 2</section>
+                <section>
+                    <h1>Music Theory</h1>
+                    <h2>General overview of the basics of sound and music theory</h2>
+                </section>
+                <section>
+                    <h2>What is Sound?</h2>
+                    <p class="fragment">
+                        Sound is the movement of pressure changes in a material like air or metal.
+                    </p>
+                </section>
+                <section class="scale80">
+                    <h2>What is Pressure?</h2>
+                    <p class="fragment">
+                        Pressure is how "hard" air is pressing against a surface.
+                    </p>
+                    <p class="fragment">
+                        We feel the pressure of the air around us on our bodies.  It feels normal but if we go to higher
+                        altitude, we can feel the pressure decrease in our ears.
+                    </p>
+                    <p class="fragment">
+                        When air is "squeezed" into a smaller volume, the pressure gets higher.
+                    </p>
+                    <p class="fragment">
+                        For example, the air pressure inside a balloon is greater than the air pressure outside the
+                        balloon.
+                    </p>
+                </section>
+                <section>
+                    <img src="assets/img/high-low-pressure.jpeg"  alt="High vs. low pressure" />
+                </section>
+                <section>
+                    <h2>Vibration</h2>
+                    <p class="fragment">
+                        Repetitive back and forth movement.
+                    </p>
+                    <p class="fragment">
+                        Can be a pendulum, a tuning fork, a spring, a guitar string, etc.
+                    </p>
+                    <p class="fragment">
+                        Also known as oscillation.
+                    </p>
+                </section>
+                <section>
+                    When a object vibrates, it causes similar vibrations in the pressure of the surrounding air.  These
+                    vibrations are detected by the human ear and processed by the brain as sound.
+                    <p class="fragment">
+                        This is called a sound wave.
+                    </p>
+                </section>
+                <section>
+                    <img src="assets/img/sound-pressure-waves.png"  alt="Sound pressure waves" />
+                </section>
+                <section>
+                    The distance between the high pressure areas of the sound wave is called the wavelength.
+                </section>
+                <section>
+                    <img src="assets/img/sound-pressure-wavelength.jpeg"  alt="Sound pressure wavelength" />
+                </section>
             </div>
         </div>
 
         <script src="assets/reveal/js/reveal.js"></script>
         <script>
             Reveal.initialize({
+                controls: true,
+                progress: true,
+                center: true,
                 hash: true,
             });
         </script>
