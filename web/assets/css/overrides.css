@@ -1,15 +1,20 @@
-.scale80 {
+.scale80, h2.scale80 {
 	font-size: 80%;
 }
 
-.scale70 {
+.scale70, h2.scale70 {
 	font-size: 70%;
 }
 
-.scale60 {
+.scale60, h2.scale60 {
 	font-size: 60%;
 }
 
-.scale50 {
+.scale50, h2.scale50 {
 	font-size: 50%;
+}
+
+img.aspect-ratio-box {
+	max-height: 630px;
+	width: auto;
 }
