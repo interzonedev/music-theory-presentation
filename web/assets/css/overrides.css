@@ -14,7 +14,17 @@
 	font-size: 50%;
 }
 
-img.aspect-ratio-box {
+img.aspect-ratio-box-height-630 {
 	max-height: 630px;
+	width: auto;
+}
+
+img.aspect-ratio-box-height-440 {
+	max-height: 440px;
+	width: auto;
+}
+
+img.aspect-ratio-box-height-330 {
+	max-height: 330px;
 	width: auto;
 }
